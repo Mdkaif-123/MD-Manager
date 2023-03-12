@@ -17,7 +17,7 @@ const PORT = 3000
 const oneDay = 1000* 60* 60* 24
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/collegeDB", {useNewUrlParser: true, useUnifiedTopology:true })
+mongoose.connect("mongodb+srv://admin-kaif:Kaifkaif1234@cluster0.k8uohd0.mongodb.net/test", {useNewUrlParser: true, useUnifiedTopology:true })
 .then(()=>{
     console.log("Connected to collegeDB")
 })
